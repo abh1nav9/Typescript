@@ -1,4 +1,4 @@
-function check(age: number){
+function check(age: number): boolean{
     if(age >= 18){
         return true;
     }
