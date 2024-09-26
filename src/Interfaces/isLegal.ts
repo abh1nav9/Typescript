@@ -1,7 +1,7 @@
 
 // What is an Interface? Giving type to an object.
-
 // Definign a Interface
+
 interface User {
     firstName: string;
     lastName: string;
