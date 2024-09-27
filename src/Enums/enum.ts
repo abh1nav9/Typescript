@@ -29,13 +29,16 @@ function doSomething2(disha: Direction){
 doSomething2(Direction.East);
 
 // Common usecase in ExpressJS
-enum statusCodes {
+enum ResponseStatus {
     Success = 200,
     NotFound = 404,
     Error = 500
 }
 
-function doSomething3(response: statusCodes){
-    console.log(response);
-}
-doSomething3(statusCodes.Success);
+app.get("/', (req, res) => {
+    if (!req.query.userId) {
+			res.status(ResponseStatus.Error).json({})
+    }
+    // and so on...
+		res.status(ResponseStatus.Success).json({});
+})
