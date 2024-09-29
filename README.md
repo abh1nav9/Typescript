@@ -68,4 +68,7 @@ Welcome to my TypeScript learning repository! In this project, I document my jou
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/typescript-learning.git
+   git clone https://github.com/abh1nav9/Typescript.git
+
+## Next Step
+  - Advanced Typescript API
